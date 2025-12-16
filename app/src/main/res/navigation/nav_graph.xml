@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.spineguard.ui.dashboard.DashboardFragment"
+        android:label="Главная" />
+
+    <fragment
+        android:id="@+id/postureCheckFragment"
+        android:name="com.example.spineguard.ui.posture.`PostureCheck.kt`"
+        android:label="Проверка осанки" />
+
+    <fragment
+        android:id="@+id/progressFragment"
+        android:name="com.example.spineguard.ui.progress.ProgressFragment"
+        android:label="Прогресс" />
+
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="com.example.spineguard.ui.exercises.ExercisesFragment"
+        android:label="Упражнения">
+        <action
+            android:id="@+id/action_exercisesFragment_to_exerciseDetailFragment"
+            app:destination="@id/exerciseDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciseDetailFragment"
+        android:name="com.example.spineguard.ui.exercises.ExerciseDetailFragment"
+        android:label="Упражнение" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.spineguard.ui.profile.ProfileFragment"
+        android:label="Профиль" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.spineguard.ui.settings.SettingsFragment"
+        android:label="Настройки" />
+</navigation>

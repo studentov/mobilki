@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ТЕМА ПРИЛОЖЕНИЯ (обязательно, т.к. она указана в Manifest) -->
+    <style name="Theme.Spineguard" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- можно оставить пустым, но тема должна существовать -->
+    </style>
+
+    <!-- твой Snackbar -->
+    <style name="Widget.CustomSnackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/snackbar_bg</item>
+        <item name="android:textColor">@color/snackbar_text</item>
+    </style>
+
+</resources>

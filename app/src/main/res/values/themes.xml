@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SpineGuard" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Основные цвета -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Можно вторичный цвет тоже сделать зелёным -->
+        <item name="colorSecondary">@color/primary_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Статусбар -->
+        <item name="android:statusBarColor">@color/primary_green</item>
+
+        <item name="snackbarStyle">@style/Widget.CustomSnackbar</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,47 @@
+﻿# Gradle
+.gradle/
+build/
+caches/
+daemon/
+kotlin-profile/
+native/
+.tmp/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Built files
+*.apk
+*.aar
+*.ap_
+*.jar
+*.class
+
+# Local configuration
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.kotlin_module
+
+# Generated files
+bin/
+gen/
+out/
+captures/
+
+# Firebase
+google-services.json
+
+# Keystores
+*.jks
+*.keystore
+
+# Gradle distributions (downloaded automatically)
+/wrapper/dists/
